@@ -7,21 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5825B4FC22E9DC1E005B4FFF /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5825B4FB22E9DC1E005B4FFF /* FeedViewController.swift */; };
+		5825B4FE22E9E540005B4FFF /* JournalSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5825B4FD22E9E540005B4FFF /* JournalSectionController.swift */; };
+		5825B50022EB0AE3005B4FFF /* MessageSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5825B4FF22EB0AE3005B4FFF /* MessageSectionController.swift */; };
+		5825B50222EB1644005B4FFF /* WeatherSectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5825B50122EB1644005B4FFF /* WeatherSectionController.swift */; };
 		58AA58EF22E735BB0087767F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA58EE22E735BB0087767F /* AppDelegate.swift */; };
-		58AA58F122E735BB0087767F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA58F022E735BB0087767F /* ViewController.swift */; };
-		58AA58F422E735BB0087767F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58AA58F222E735BB0087767F /* Main.storyboard */; };
 		58AA58F622E735BC0087767F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58AA58F522E735BC0087767F /* Assets.xcassets */; };
 		58AA58F922E735BC0087767F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58AA58F722E735BC0087767F /* LaunchScreen.storyboard */; };
+		58AA590722E738060087767F /* DateSortable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA590622E738060087767F /* DateSortable.swift */; };
+		58AA590922E738590087767F /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA590822E738590087767F /* JournalEntry.swift */; };
+		58AA590B22E738E70087767F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA590A22E738E70087767F /* User.swift */; };
+		58AA590D22E739870087767F /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA590C22E739870087767F /* Message.swift */; };
+		58AA590F22E73A170087767F /* NSObject+ListDiffable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA590E22E73A170087767F /* NSObject+ListDiffable.swift */; };
+		58AA591122E73B810087767F /* SolFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA591022E73B810087767F /* SolFormatter.swift */; };
+		58AA591322E73F8D0087767F /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA591222E73F8D0087767F /* Weather.swift */; };
+		58AA591622E748760087767F /* JournalLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA591522E748760087767F /* JournalLoader.swift */; };
+		58AA591822E74BB30087767F /* Pathfinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA591722E74BB20087767F /* Pathfinder.swift */; };
+		58AA591A22E753040087767F /* TextSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA591922E753040087767F /* TextSize.swift */; };
+		58AA591C22E75F5C0087767F /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA591B22E75F5C0087767F /* Theme.swift */; };
+		58AA591E22E7606C0087767F /* WxScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA591D22E7606C0087767F /* WxScanner.swift */; };
+		58AA592022E761580087767F /* ClassicFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA591F22E761580087767F /* ClassicFeedViewController.swift */; };
+		58AA592222E83AF60087767F /* JournalEntryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA592122E83AF60087767F /* JournalEntryCell.swift */; };
+		58AA592422E83E560087767F /* JournalEntryDateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA592322E83E560087767F /* JournalEntryDateCell.swift */; };
+		58AA592622E849160087767F /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA592522E849160087767F /* CustomNavigationBar.swift */; };
+		58AA592822E8B0770087767F /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA592722E8B0770087767F /* MessageCell.swift */; };
+		58AA592A22E8BA900087767F /* WeatherDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA592922E8BA900087767F /* WeatherDetailCell.swift */; };
+		58AA592C22E8C0020087767F /* WeatherSummaryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA592B22E8C0020087767F /* WeatherSummaryCell.swift */; };
+		58F4563722E99CCB00B5C6BD /* OCRAStd.otf in Resources */ = {isa = PBXBuildFile; fileRef = 58AA591422E746E60087767F /* OCRAStd.otf */; };
+		AF9352CF8890BB34DB48FFD3 /* Pods_IGListKitLesson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26698A99C689E0BFDE292322 /* Pods_IGListKitLesson.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26698A99C689E0BFDE292322 /* Pods_IGListKitLesson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IGListKitLesson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5825B4FB22E9DC1E005B4FFF /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		5825B4FD22E9E540005B4FFF /* JournalSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalSectionController.swift; sourceTree = "<group>"; };
+		5825B4FF22EB0AE3005B4FFF /* MessageSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageSectionController.swift; sourceTree = "<group>"; };
+		5825B50122EB1644005B4FFF /* WeatherSectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherSectionController.swift; sourceTree = "<group>"; };
 		58AA58EB22E735BB0087767F /* IGListKitLesson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IGListKitLesson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58AA58EE22E735BB0087767F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		58AA58F022E735BB0087767F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		58AA58F322E735BB0087767F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58AA58F522E735BC0087767F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58AA58F822E735BC0087767F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		58AA58FA22E735BC0087767F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58AA590622E738060087767F /* DateSortable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateSortable.swift; sourceTree = "<group>"; };
+		58AA590822E738590087767F /* JournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		58AA590A22E738E70087767F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		58AA590C22E739870087767F /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		58AA590E22E73A170087767F /* NSObject+ListDiffable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+ListDiffable.swift"; sourceTree = "<group>"; };
+		58AA591022E73B810087767F /* SolFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolFormatter.swift; sourceTree = "<group>"; };
+		58AA591222E73F8D0087767F /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		58AA591422E746E60087767F /* OCRAStd.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OCRAStd.otf; sourceTree = "<group>"; };
+		58AA591522E748760087767F /* JournalLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalLoader.swift; sourceTree = "<group>"; };
+		58AA591722E74BB20087767F /* Pathfinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pathfinder.swift; sourceTree = "<group>"; };
+		58AA591922E753040087767F /* TextSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextSize.swift; sourceTree = "<group>"; };
+		58AA591B22E75F5C0087767F /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		58AA591D22E7606C0087767F /* WxScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WxScanner.swift; sourceTree = "<group>"; };
+		58AA591F22E761580087767F /* ClassicFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicFeedViewController.swift; sourceTree = "<group>"; };
+		58AA592122E83AF60087767F /* JournalEntryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryCell.swift; sourceTree = "<group>"; };
+		58AA592322E83E560087767F /* JournalEntryDateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalEntryDateCell.swift; sourceTree = "<group>"; };
+		58AA592522E849160087767F /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
+		58AA592722E8B0770087767F /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		58AA592922E8BA900087767F /* WeatherDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailCell.swift; sourceTree = "<group>"; };
+		58AA592B22E8C0020087767F /* WeatherSummaryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherSummaryCell.swift; sourceTree = "<group>"; };
+		58F4563822E99D5B00B5C6BD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A228680BB5567DE837D8BF22 /* Pods-IGListKitLesson.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitLesson.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitLesson/Pods-IGListKitLesson.debug.xcconfig"; sourceTree = "<group>"; };
+		E6DBAF274C8B5F500A96F685 /* Pods-IGListKitLesson.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IGListKitLesson.release.xcconfig"; path = "Pods/Target Support Files/Pods-IGListKitLesson/Pods-IGListKitLesson.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF9352CF8890BB34DB48FFD3 /* Pods_IGListKitLesson.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +89,8 @@
 			children = (
 				58AA58ED22E735BB0087767F /* IGListKitLesson */,
 				58AA58EC22E735BB0087767F /* Products */,
+				D855817A79C0386C3A3CA411 /* Pods */,
+				93181341BAC4C99BA5901BFF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +105,101 @@
 		58AA58ED22E735BB0087767F /* IGListKitLesson */ = {
 			isa = PBXGroup;
 			children = (
+				58AA590022E737800087767F /* Models */,
+				58AA590122E737880087767F /* Resources */,
+				58AA590222E737920087767F /* SectionControllers */,
+				58AA590322E737AC0087767F /* Systems */,
+				58AA590422E737B80087767F /* ViewControllers */,
+				58AA590522E737C30087767F /* Views */,
 				58AA58EE22E735BB0087767F /* AppDelegate.swift */,
-				58AA58F022E735BB0087767F /* ViewController.swift */,
-				58AA58F222E735BB0087767F /* Main.storyboard */,
-				58AA58F522E735BC0087767F /* Assets.xcassets */,
-				58AA58F722E735BC0087767F /* LaunchScreen.storyboard */,
-				58AA58FA22E735BC0087767F /* Info.plist */,
+				58F4563822E99D5B00B5C6BD /* Info.plist */,
 			);
 			path = IGListKitLesson;
+			sourceTree = "<group>";
+		};
+		58AA590022E737800087767F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				58AA590622E738060087767F /* DateSortable.swift */,
+				58AA590822E738590087767F /* JournalEntry.swift */,
+				58AA590A22E738E70087767F /* User.swift */,
+				58AA590C22E739870087767F /* Message.swift */,
+				58AA590E22E73A170087767F /* NSObject+ListDiffable.swift */,
+				58AA591022E73B810087767F /* SolFormatter.swift */,
+				58AA591222E73F8D0087767F /* Weather.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		58AA590122E737880087767F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				58AA58F522E735BC0087767F /* Assets.xcassets */,
+				58AA58F722E735BC0087767F /* LaunchScreen.storyboard */,
+				58AA591422E746E60087767F /* OCRAStd.otf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		58AA590222E737920087767F /* SectionControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5825B4FD22E9E540005B4FFF /* JournalSectionController.swift */,
+				5825B4FF22EB0AE3005B4FFF /* MessageSectionController.swift */,
+				5825B50122EB1644005B4FFF /* WeatherSectionController.swift */,
+			);
+			path = SectionControllers;
+			sourceTree = "<group>";
+		};
+		58AA590322E737AC0087767F /* Systems */ = {
+			isa = PBXGroup;
+			children = (
+				58AA591522E748760087767F /* JournalLoader.swift */,
+				58AA591722E74BB20087767F /* Pathfinder.swift */,
+				58AA591922E753040087767F /* TextSize.swift */,
+				58AA591B22E75F5C0087767F /* Theme.swift */,
+				58AA591D22E7606C0087767F /* WxScanner.swift */,
+			);
+			path = Systems;
+			sourceTree = "<group>";
+		};
+		58AA590422E737B80087767F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				58AA591F22E761580087767F /* ClassicFeedViewController.swift */,
+				5825B4FB22E9DC1E005B4FFF /* FeedViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		58AA590522E737C30087767F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				58AA592122E83AF60087767F /* JournalEntryCell.swift */,
+				58AA592322E83E560087767F /* JournalEntryDateCell.swift */,
+				58AA592522E849160087767F /* CustomNavigationBar.swift */,
+				58AA592722E8B0770087767F /* MessageCell.swift */,
+				58AA592922E8BA900087767F /* WeatherDetailCell.swift */,
+				58AA592B22E8C0020087767F /* WeatherSummaryCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		93181341BAC4C99BA5901BFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26698A99C689E0BFDE292322 /* Pods_IGListKitLesson.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D855817A79C0386C3A3CA411 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A228680BB5567DE837D8BF22 /* Pods-IGListKitLesson.debug.xcconfig */,
+				E6DBAF274C8B5F500A96F685 /* Pods-IGListKitLesson.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +209,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58AA58FD22E735BC0087767F /* Build configuration list for PBXNativeTarget "IGListKitLesson" */;
 			buildPhases = (
+				340E3077EECF737114696C04 /* [CP] Check Pods Manifest.lock */,
 				58AA58E722E735BB0087767F /* Sources */,
 				58AA58E822E735BB0087767F /* Frameworks */,
 				58AA58E922E735BB0087767F /* Resources */,
+				A26DF7522CADA30953F234FE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,35 +262,88 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58F4563722E99CCB00B5C6BD /* OCRAStd.otf in Resources */,
 				58AA58F922E735BC0087767F /* LaunchScreen.storyboard in Resources */,
 				58AA58F622E735BC0087767F /* Assets.xcassets in Resources */,
-				58AA58F422E735BB0087767F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		340E3077EECF737114696C04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IGListKitLesson-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A26DF7522CADA30953F234FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IGListKitLesson/Pods-IGListKitLesson-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGListKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IGListKitLesson/Pods-IGListKitLesson-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		58AA58E722E735BB0087767F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58AA58F122E735BB0087767F /* ViewController.swift in Sources */,
+				58AA592422E83E560087767F /* JournalEntryDateCell.swift in Sources */,
+				58AA592A22E8BA900087767F /* WeatherDetailCell.swift in Sources */,
+				58AA590F22E73A170087767F /* NSObject+ListDiffable.swift in Sources */,
+				58AA591622E748760087767F /* JournalLoader.swift in Sources */,
 				58AA58EF22E735BB0087767F /* AppDelegate.swift in Sources */,
+				58AA591C22E75F5C0087767F /* Theme.swift in Sources */,
+				58AA590922E738590087767F /* JournalEntry.swift in Sources */,
+				58AA591A22E753040087767F /* TextSize.swift in Sources */,
+				58AA591322E73F8D0087767F /* Weather.swift in Sources */,
+				58AA590D22E739870087767F /* Message.swift in Sources */,
+				58AA592822E8B0770087767F /* MessageCell.swift in Sources */,
+				58AA591E22E7606C0087767F /* WxScanner.swift in Sources */,
+				58AA592022E761580087767F /* ClassicFeedViewController.swift in Sources */,
+				5825B4FE22E9E540005B4FFF /* JournalSectionController.swift in Sources */,
+				5825B4FC22E9DC1E005B4FFF /* FeedViewController.swift in Sources */,
+				58AA592622E849160087767F /* CustomNavigationBar.swift in Sources */,
+				5825B50022EB0AE3005B4FFF /* MessageSectionController.swift in Sources */,
+				58AA592C22E8C0020087767F /* WeatherSummaryCell.swift in Sources */,
+				5825B50222EB1644005B4FFF /* WeatherSectionController.swift in Sources */,
+				58AA590B22E738E70087767F /* User.swift in Sources */,
+				58AA590722E738060087767F /* DateSortable.swift in Sources */,
+				58AA591122E73B810087767F /* SolFormatter.swift in Sources */,
+				58AA592222E83AF60087767F /* JournalEntryCell.swift in Sources */,
+				58AA591822E74BB30087767F /* Pathfinder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		58AA58F222E735BB0087767F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				58AA58F322E735BB0087767F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		58AA58F722E735BC0087767F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,6 +473,7 @@
 		};
 		58AA58FE22E735BC0087767F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A228680BB5567DE837D8BF22 /* Pods-IGListKitLesson.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +492,7 @@
 		};
 		58AA58FF22E735BC0087767F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6DBAF274C8B5F500A96F685 /* Pods-IGListKitLesson.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
